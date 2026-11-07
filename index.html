@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N'cho N'cho Jean-Baptiste | Suite Logicielle Ma Pharmacie</title>
+    <style>
+        :root {
+            --primary: #0077b6;
+            --dark: #03045e;
+            --light: #f4f7f6;
+            --text: #2b2d42;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: var(--text);
+            background-color: var(--light);
+        }
+        header {
+            background: linear-gradient(135deg, var(--dark) 0%, #1a252f 100%);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        header h1 {
+            font-size: 3.2em; 
+            font-weight: 800; 
+            letter-spacing: 1px; 
+            margin: 0;
+        }
+        header p {
+            font-size: 1.3em; 
+            letter-spacing: 1px; 
+            margin-top: 15px;
+            color: #caf0f8;
+        }
+        .badge-header {
+            display: inline-block;
+            margin-top: 20px; 
+            font-size: 1.1em; 
+            color: var(--primary); 
+            background: white;
+            padding: 6px 15px;
+            border-radius: 50px;
+            font-weight: 700; 
+            text-transform: uppercase; 
+            letter-spacing: 1px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .profile-container {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .profile-img {
+            width: 180px; 
+            height: 220px; 
+            border-radius: 12px; 
+            border: 4px solid var(--primary); 
+            object-fit: cover; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+        h2 {
+            color: var(--dark);
+            border-bottom: 3px solid var(--primary);
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        .app-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+        @media(min-width: 768px) {
+            .app-grid { grid-template-columns: 1fr 1fr; }
+        }
+        .app-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 6px;
+            border-top: 4px solid var(--primary);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .tag-info {
+            background: #e1f5fe;
+            color: #0288d1;
+            padding: 4px 8px;
+            font-size: 0.85em;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: background 0.3s;
+        }
+        .btn:hover { background: #0096c7; }
+        .contact-box {
+            background: var(--light); 
+            padding: 20px; 
+            border-radius: 6px; 
+            margin-bottom: 25px; 
+            border-left: 5px solid var(--primary);
+        }
+        .contact-box p {
+            margin: 6px 0;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>N'cho N'cho <span style="color: #00b4d8; font-weight: 300;">Jean-Baptiste</span></h1>
+        <p>Ingénieur Logistique & Expert en Gestion Pharmaceutique Terrain</p>
+        <div class="badge-header">
+            ✦ Concepteur Indépendant ✦
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <div class="section">
+            <h2>À propos de mon expertise</h2>
+            <div class="profile-container">
+                <img src="photo-ncho.jpeg" alt="N'cho N'cho Jean-Baptiste" class="profile-img">
+            </div>
+            <p>Depuis <strong>2019</strong>, j'exerce comme <strong>Préparateur et Gestionnaire en Pharmacie</strong>, Responsable du service pharmacie du Centre de Santé Urbain (CSU) de Niambezaria, dans le département de Lakota.</p>
+            <p>Parallèlement à mon expérience quotidienne du terrain sanitaire ivoirien, je suis titulaire d'un <strong>Master of Engineering en Logistique (spécialité Distribution)</strong>, obtenu au sein de la promotion <strong>2021-2023</strong> à l'Institut Supérieur de Mécanique de Paris (ISM Paris).</p>
+            <p>C'est cette double compétence logistique et médicale qui m'a poussé à développer de façon totalement indépendante des solutions logicielles robustes, répondant précisément à la réalité fonctionnelle et aux besoins de traçabilité des structures de santé et des districts sanitaires en Côte d'Ivoire.</p>
+        </div>
+
+        <div class="section">
+            <h2>Mes Solutions Logicielles</h2>
+            <div style="background-color: #e3f2fd; color: #0d47a1; padding: 12px; border-radius: 6px; margin-bottom: 20px; font-size: 0.9em; font-weight: 500; border-left: 4px solid #1976d2;">
+                📌 <strong>Spécifications techniques :</strong> Version actuelle compatible pour ordinateurs <strong>Windows 10 / 11</strong>. Les éditions mobiles pour <strong>Android sont en cours de développement</strong>.
+            </div>
+            <div class="app-grid">
+                <div class="app-card">
+                    <div>
+                        <span class="tag-info">Essai gratuit 45 jours puis abonnement</span>
+                        <h3>Ma Pharmacie</h3>
+                        <p style="font-style: italic; color: #7f8c8d;">Réseau de soins de proximité</p>
+                        <p>Solution complète de gestion pour les pharmacies d'hôpitaux, cliniques et CSU. Gestion fine des stocks (réserve et vente), alertes de péremption, suivi des encaissements (espèces, Mobile Money) et calcul automatique du tiers-payant. Fonctionne entièrement hors-ligne.</p>
+                    </div>
+                    <a href="https://microsoft.com" target="_blank" class="btn">Télécharger sur le Microsoft Store</a>
+                </div>
+                <div class="app-card">
+                    <div>
+                        <span class="tag-info">Essai gratuit 45 jours puis abonnement</span>
+                        <h3>Ma Pharmacie District</h3>
+                        <p style="font-style: italic; color: #7f8c8d;">Gestion de District-CI</p>
+                        <p>Outil logistique calibré à l'échelle d'un district sanitaire. Centralisation des commandes fournisseurs, suivi des grands entrepôts de stockage, pilotage complet des livraisons vers les sous-établissements et génération automatique des rapports officiels imprimables.</p>
+                    </div>
+                    <a href="https://microsoft.com" target="_blank" class="btn">Télécharger sur le Microsoft Store</a>
+                </div>
+            </div>
+        </div><div class="section">
+            <h2>Contact & Souscription</h2>
+            <p>Le téléchargement comprend une période d'évaluation complète de 45 jours. À l'issue de cet essai, le renouvellement s'effectue via une formule d'abonnement au choix. <strong>À noter qu'un module de demande de licence de réabonnement est directement intégré au sein de vos applications pour simplifier vos démarches.</strong></p>
+            
+            <div class="contact-box">
+                <h4 style="margin-top: 0; color: var(--dark); font-size: 1.15em;">📞 Coordonnées de contact direct :</h4>
+                <p><strong>Téléphone :</strong> +225 07 58 68 31 89</p>
+                <p><strong>Adresse Email :</strong> jncho985@gmail.com</p>
+                <p><strong>Localisation :</strong> Service Pharmacie, CSU de Niambezaria, Lakota, Côte d'Ivoire</p>
+            </div>
+
+            <p style="font-size: 0.95em; color: #555;">Vous pouvez également utiliser ce formulaire pour toute demande de partenariat, de déploiement réseau à grande échelle ou d'assistance technique :</p>
+
+            <form action="#" method="POST" onsubmit="alert('Merci M. N\'cho. Votre site est prêt.'); return false;">
+                <div class="form-group">
+                    <label for="name">Nom / Structure ou District :</label>
+                    <input type="text" id="name" placeholder="Ex: Clinique ou District de Lakota" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Adresse Email de contact :</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Numéro de Téléphone (WhatsApp) :</label>
+                    <input type="tel" id="phone" placeholder="Ex: +225 ...">
+                </div>
+                <div class="form-group">
+                    <label for="message">Votre Message :</label>
+                    <textarea id="message" rows="5" placeholder="Précisez votre demande (Besoin d'assistance, déploiement sur site, questions sur les abonnements...)" required></textarea>
+                </div>
+                <button type="submit" class="btn" style="border:none; width:100%; cursor:pointer; background: var(--dark);">Envoyer la demande</button>
+            </form>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 N'cho N'cho Jean-Baptiste. Solutions logicielles indépendantes pour la santé publique.</p>
+    </footer>
+
+</body>
+</html>
